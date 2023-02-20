@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saif Hassouni</title>
+    <!--Link Tailwind File -->
+    <link rel="stylesheet" href="./dist/output.css">
+    <!--Link Font Family Fira Code-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--Link Font Family inter-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="mainColor">
+    <!-- ###################### Starting Header ########################-->
+<header class="fixed top-0 z-10 w-full backdrop-blur-sm">
+    <div class=" container  mx-auto px-4">
+        <!--Header Wrapper-->
+        <!-- relative from last project -->
+        <div class="flex justify-between  items-center py-5 md:px-5 firaCodeFont">
+            <!--Logo -->
+            <div class="grow flex">
+                <a href="" class="border-2 px-2 py-1 border-green-300 logo rotate-90 ">
+                    <h1 class="text-green-300 text-2xl -rotate-90">S</h1>
+                </a>
+            </div>
+            <!--Nav list-->
+            <!-- top-3/4 mt-4 from last project -->
+            <nav class=" shadow  md:shadow-none text-xl md:text-xs nav-menu md:rotate-0  md:visible absolute top-0 right-0  md:mt-0 md:h-auto   bg-gray-800 md:bg-inherit  md:relative w-3/4 h-screen  md:w-auto  items-center justify-end grow md:flex ">
+                <ul class="nav-list mt-20 md:mt-0 text-white flex flex-col md:flex-row justify-center items-center md:flex nav-list">
+                    <li class="nav-item my-6 md:my-0"><a href="#about" class="nav-link hover:text-green-300"><span class="text-green-200">01.</span> About</a></li>
+                    <li class="nav-item my-6 md:my-0" ><a href="#experience" class="nav-link hover:text-green-300"> <span class="text-green-200">02.</span>Experience</a></li>
+                    <li class="nav-item my-6 md:my-0"><a href="#work" class="nav-link hover:text-green-300"><span class="text-green-200">03.</span>Work</a></li>
+                    <li class="nav-item my-6 md:my-0"><a href="#contact" class="nav-link hover:text-green-300"><span class="text-green-200">04.</span>Contact</a></li>
+                </ul>
+                <!--buttons-->
+                <ul class="p-3 mt-10 md:mt-0 md:p-0 flex items-center justify-center ">
+                    <a href="./cv (1).pdf" download class="border resume  w-9/12 transition-all  border-green-300  md:w-auto text-center py-4 md:py-2 px-4 rounded mx-7">
+                        <span  class="text-green-300 ">Resume</span>
+                    </a>
+                </ul>
+            </nav>
+            <div class="burger z-50 flex justify-end cursor-pointer rounded relative md:hidden">
+                <span class="lineOne absolute w-8 h-0.5 bg-green-300 top-2 rounded"></span>
+                <span class="lineTwo absolute w-6 h-0.5 bg-green-300 top-4 rounded "></span>
+                <span class="lineThree absolute w-4 h-0.5 bg-green-300 top-6 rounded"></span>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ###################### Header Done ########################-->
+<!-- ###################### Content ############################-->
+ <main>
+    <!--######### Presentation Page ############-->
+    <section class="py-20 my-20" >
+        <div class="container mx-auto px-5 sm:px-10 md:px-20 ">
+            <div class=" md:pt-0 flex flex-col items-start justify-center">
+                <span class="text-green-300 firaCodeFont mb-5">Hi, my name is</span>
+                <h1 class="text-4xl sm:text-5xl md:text-7xl font-medium text-gray-200 mb-1">Saif Hassouni.</h1>
+                <h2 class="text-3xl  sm:text-5xl text-gray-400 md:text-7xl font-bold mb-4">I build things for the web.</h2>
+                <p class=" text-sm  sm:text-md text-gray-400 md:text-xl">I like to craft solid and scalable frontend products with great user experiences.</p>
+                <button class="mt-20 "><a href="./cv (1).pdf" download class="text-green-300 cta border-green-2 border rounded py-4 px-7 ">Download CV</a></button>
+            </div>
+        </div>
+    </section>
+    <!-- ########### About Section ############-->
+    <section id="about" class="py-20 my-10 ">
+        <div class="container mx-auto px-5  md:px-10 lg:px-20">
+            <div class=" flex flex-col justify-center xl:p-16">
+                <div class="firaCodeFont flex items-end ">
+                    <span class="text-green-300 text-xl ">01.</span>
+                    <h1 class="text-gray-300 font-medium text-2xl ">About Me</h1>
+                    <span class="hidden sm:block w-1/4 sm:w-1/3 h-0.5 bg-gray-600 ml-3 mb-4"></span>
+                </div>
+                <!--Grid -->
+                <div class="grid grid-cols-1 inter  md:grid-cols-2 md:grid-rows-1 mt-10">
+                    <!--First Part-->
+                    <div class="my-5 leading-relaxed ">
+                        <p class="text-gray-400 text-md font-medium my-2">
+                            Hello! My name is Saif and I enjoy creating things that live on the internet. My interest in web development started back in 2019 when I decided to learn about Programming, its been kind of difficult because i was studying in university about economy and doing self learnig in the same time .
+                        </p>
+                        <p class="text-gray-400 text-md font-medium my-2">
+                            Fast-forward to today, and I’ve had the privilege of working at two a startup remotely, My main focus is to keep learning every single day about coding.
+                        </p>
+                        <p class="text-gray-400 text-md font-medium my-2">
+                            Here are technologies I’ve been working with recently:
+                        </p>
+                        <div class="grid grid-cols-2 grid-rows-1">
+                            <div class="flex items-center text-gray-400 font-medium my-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgreen" class="w-4 h-4 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg>                                  
+                                <span>Html5</span>
+                            </div>
+                            <div class="flex items-center text-gray-400 font-medium my-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgreen" class="w-4 h-4 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg>                                  
+                                <span>Css3</span>
+                            </div>
+                            <div class="flex items-center text-gray-400 font-medium my-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgreen" class="w-4 h-4 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg>                                  
+                                <span>Javascript(ES6)</span>
+                            </div>
+                            <div class="flex items-center text-gray-400 font-medium my-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgreen" class="w-4 h-4 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg>                                  
+                                <span>Bootstrap5</span>
+                            </div>
+                            <div class="flex items-center text-gray-400 font-medium my-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgreen" class="w-4 h-4 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg>                                  
+                                <span>TailwindCss3</span>
+                            </div>
+                            <div class="flex items-center text-gray-400 font-medium my-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgreen" class="w-4 h-4 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg>                                  
+                                <span>Vue3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Second Part-->
+                    <div class="my-5">
+                        <div class="relative">
+                            <img onmouseover="adjust()" onmouseout="normal()" class=" relative profile w-1/2  bg-green-300 rounded m-auto  transition-all" src="./imgs/profile.png" alt="">
+                            <span class="square absolute -z-10  top-4 right-24   transition-all   border-2 border-green-300 rounded w-1/2 h-full "></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- ########### Experience Section ############-->
+    <section id="experience" class="py-20 my-10">
+        <div class="container mx-auto px-5 inter">
+            <div class=" flex flex-col justify-center lg:px-36" > <!--Wrapper-->
+                <!-- #### First part ####-->
+                <div class="firaCodeFont flex items-end ">
+                    <span class="text-green-300 text-xl ">02.</span>
+                    <h1 class="text-gray-300 font-medium text-1xl sm:text-3xl ">Where i've Worked</h1>
+                    <span class="hidden sm:block w-1/4 sm:w-1/3 h-0.5 bg-gray-600 ml-3 mb-4"></span>
+                </div>
+                <!-- #### Second Part ####-->
+                <div class="grid grid-cols-1 md:grid-cols-5 md:grid-rows-1 my-8 ">
+                    <!--First col-->
+                    <div class="flex col-span-1 my-5">
+                        <div class="relative w-0.5 h-20 bg-gray-700">
+                            <span class="absolute trak w-0.5 h-10 bg-green-400 transition-all"></span>
+                        </div>
+                        <div class="companies col-span-2">
+                            <div class="firstCompany activeCompany hover:text-green-400  select-none text-gray-400 hover:bg-slate-700 transition-all py-2 px-8 cursor-pointer">KeyTab</div>
+                            <div class="secondComapny select-none  hover:text-green-400 text-gray-400 hover:bg-slate-700 transition-all py-2 px-8 cursor-pointer">Stemos</div>
+                        </div>
+                    </div>
+                    <!--Second Col-->
+                    <!--keytab-->
+                    <div class="md:col-span-4 keyTab my-5">
+                        <h1 class="text-gray-300 text-xl ">Internship <span class="text-green-300">@Keytap</span></h1>
+                        <span class="text-sm text-gray-400">May 2022 - juin 2022</span>
+                        <div class="my-5">
+                            <div class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgreen" class="w-4 h-4 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg> 
+                                <span class="text-gray-400 ml-3">Developed and maintained code for client websites using HTML, CSS, Sass, JavaScript</span>
+                            </div>
+                            <div class="flex items-start my-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgreen" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg> 
+                                <span class="text-gray-400 ml-3">Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--stemos-->
+                    <div class="md:col-span-4 hidden stemos my-5">
+                        <h1 class="text-gray-300 text-xl ">Internship <span class="text-green-300">@Stemos</span></h1>
+                        <span class="text-sm text-gray-400">November 2022 - january 2023</span>
+                        <div class="my-5">
+                            <div class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgreen" class="w-4 h-4 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg> 
+                                <span class="text-gray-400 ml-3">Developed websites using Tailwindcss,bootstrap </span>
+                            </div>
+                            <div class="flex items-start my-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgreen" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg> 
+                                <span class="text-gray-400 ml-3">Using VueJS to build web interfaces and one-page applications </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ################  Work  ##################-->
+    <section id="work" class="py-20 my-10">
+        <div class="container mx-auto my-2 px-5">
+            <div>
+                <!-- #### First part ####-->
+                <div class="firaCodeFont flex items-end ">
+                    <span class="text-green-300 text-lg sm:text-xl ">03.</span>
+                    <h1 class="text-gray-300 font-medium text-1xl sm:text-2xl ">Some Things I’ve Built</h1>
+                    <span class="hidden sm:block w-1/4 sm:w-1/3 h-0.5 bg-gray-600 ml-3 mb-4"></span>
+                </div>
+                <!-- #### Second part ####-->
+                <div class="grid gap-5 py-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-rows-1 mt-10">
+                    <!--Second col-->
+                    <a href="https://saifeddinecode.github.io/portfolio_using_html_css_js/" target="_blank" class=" flex flex-col justify-between bg-slate-800 p-5 rounded">
+                        <div class="flex justify-between items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgreen" class="w-10 h-10">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgray" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                            </svg>  
+                        </div>
+                        <h1 class="text-xl text-gray-200 font-medium hover:text-green-300">Portfolio using Pure html&css and js</h1>
+                        <p class="text-gray-400 mb-5">
+                            Building a portfolio using pure css&js without a framework
+                        </p>
+                        <div>
+                            <span class="text-gray-500 text-sm">HTML5</span>
+                            <span class="text-gray-500 text-sm">CSS3</span>
+                            <span class="text-gray-500 text-sm">JavaScript</span>
+                        </div>
+                    </a>
+                    <!--First col-->
+                    <a href="https://saifeddinecode.github.io/template_using_Tailwindcss/" target="_blank"  class=" flex flex-col justify-between transition-all bg-slate-800 p-5 rounded">
+                        <div class="flex justify-between items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgreen" class="w-10 h-10">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgray" class="w-6 h-6 see">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                            </svg>  
+                        </div>
+                        <h1 class="text-xl text-gray-200 font-medium hover:text-green-300 ">Tailwind Css 3.0 Template</h1>
+                        <p class="text-gray-400 mb-5">
+                            Building a template using css framework which is tailwind Css 3.0
+                        </p>
+                        <div>
+                            <span class="text-gray-500 text-sm">Tailwind CSS</span>
+                            <span class="text-gray-500 text-sm text-sm">JavaScript</span>
+                        </div>
+                    </a>
+                    <!--Second col-->
+                    <a href="https://saifeddinecode.github.io/template_using_bootstrap5/" target="_blank" class=" flex flex-col justify-between bg-slate-800 p-5 rounded">
+                        <div class="flex justify-between items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgreen" class="w-10 h-10">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgray" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                            </svg>  
+                        </div>
+                        <h1 class="text-xl text-gray-200 font-medium hover:text-green-300">Bootstrap5 Template</h1>
+                        <p class="text-gray-400 mb-5">
+                            Building a template using css framework which is Bootstrap5
+                        </p>
+                        <div>
+                            <span class="text-gray-500 text-sm">Bootstrap5</span>
+                            <span class="text-gray-500 text-sm">JavaScript</span>
+                        </div>
+                    </a>
+                    <!--Third col-->
+                    <a href="https://saifeddinecode.github.io/loginpageKeytab/"target="_blank" class=" flex flex-col justify-between bg-slate-800 p-5 rounded">
+                        <div class="flex justify-between items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgreen" class="w-10 h-10">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgray" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                            </svg>  
+                        </div>
+                        <h1 class="text-xl text-gray-200 font-medium hover:text-green-300">Login page from the first internship (KEYTAB) </h1>
+                        <p class="text-gray-400 mb-5">
+                            Building a Login Page using Pure html,css and javascript
+                        </p>
+                        <div>
+                            <span class="text-gray-500 text-sm">Html</span>
+                            <span class="text-gray-500 text-sm">Css</span>
+                            <span class="text-gray-500 text-sm">JavaScript</span>
+                        </div>
+                    </a>
+                    <!--Fourth col-->
+                    <a href="https://saifeddinecode.github.io/adminPanel_vue3_bs5/" target="_blank" class=" flex flex-col justify-between bg-slate-800 p-5 rounded">
+                        <div class="flex justify-between items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgreen" class="w-10 h-10">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="lightgray" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                            </svg>  
+                        </div>
+                        <h1 class="text-xl text-gray-200 font-medium hover:text-green-300">Admin Panel from the Second internship (STEMOS) </h1>
+                        <p class="text-gray-400 mb-5">
+                            Building an Admin Panel using css framework (Bootstrap5) & js framework (Vue3)
+                        </p>
+                        <div>
+                            <span class="text-gray-500 text-sm">Bootstrap5</span>
+                            <span class="text-gray-500 text-sm">Vue3</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact Part-->
+    <section id="contact" class="py-20 my-10">
+        <div class="container w-full  md:w-3/4 xl:w-1/3 mx-auto my-2 px-5 flex flex-col items-center">
+            <!-- #### First part ####-->
+            <div class="firaCodeFont flex items-end">
+                <span class="text-green-300 text-lg ">04.</span>
+                <h1 class="text-green-300 font-light text-1xl sm:text-lg ">Contact me</h1>
+            </div>
+            <h1 class="text-4xl sm:text-5xl font-bold text-gray-300 my-4">Get In Touch</h1>
+            <p class="text-gray-400 text-center leading-relaxed ">I’m currently looking for a new opportunities, my inbox is always open. if you need more information about my career, contact me!</p>
+            <div class="flex flex-col items-center md:hidden">
+                <div class="flex">
+                    <a href="https://github.com/SaifeddineCode" target="_blank" class="github my-4 mx-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="lightgray" class="bi bi-github " viewBox="0 0 16 16"> <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/> </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/saifeddine-hassouni/" target="_blank" class="linkedin my-4 mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="lightgray" class="bi bi-linkedin" viewBox="0 0 16 16"> <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/> </svg>        
+                    </a>
+                </div>
+                <div>
+                    <div class="text-gray-300 hover:text-green-400">saifeddinehassouni@gmail.com</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!--E ##################### End of The Content ###################-->
+<!--left Side Source-->
+<div class="social fixed bottom-0 left-10 hidden md:block ">
+    <div class="flex flex-col items-center">
+        <a href="https://github.com/SaifeddineCode" target="_blank" class="github my-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="lightgray" class="bi bi-github" viewBox="0 0 16 16"> <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/> </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/saifeddine-hassouni/" target="_blank" class="linkedin my-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="lightgray" class="bi bi-linkedin" viewBox="0 0 16 16"> <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/> </svg>        
+        </a>
+        <span class="w-px h-20 bg-gray-500"></span>
+    </div>
+</div>
+<!--right Side Source-->
+
+<div class="mail fixed bottom-0 -right-14 hidden md:block ">
+    <div class="flex flex-col items-center">
+        <a href="#" class="text-gray-400 rotate-90 text-sm -z-10">saifeddinehassouni@gmail.com</a>
+        <span class="w-px h-20 bg-gray-500 mt-28"></span>
+    </div>
+</div>
+
+<!--Footer-->
+<footer>
+    <div class="container mx-auto py-5 px-5">
+        <div class="text-sm text-gray-400 flex justify-center items-center">
+            <span class="hover:text-green-300">Built by Saif Hassouni</span>
+        </div>
+    </div>
+</footer>
+
+<script src="./js/main.js" ></script>
+</body>
+</html>
